@@ -1,4 +1,12 @@
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/map"
@@ -6,5 +14,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="test.sample.example.com.mappsss.MapsActivity" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000fff"
+        android:layout_marginTop="40dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_distance_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:background="#0ff000"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:text="Select Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" />
+
+    </FrameLayout>
+
+    </FrameLayout>
 
 
